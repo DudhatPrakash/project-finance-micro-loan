@@ -1,0 +1,14 @@
+version: '3'
+services:
+  notary:
+    build: {PathToReplace}/nodes/Notary
+    ports:
+    - 10004:10003
+  borrowera:
+    build: {PathToReplace}/nodes/BorrowerA
+    ports:
+    - 10006:10003
+  lendera:
+    build: {PathToReplace}/nodes/LenderA
+    ports:
+    - 10009:10003

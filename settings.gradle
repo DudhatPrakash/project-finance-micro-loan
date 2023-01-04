@@ -1,0 +1,6 @@
+rootProject.name = 'project-finance-micro-loan'
+include 'project-finance-micro-loan-contracts'
+include 'project-finance-micro-loan-commons'
+include 'pfml-pfml-borrower-workflows'
+include 'pfml-borrower-workflows'
+include 'pfml-financer-workflow'
